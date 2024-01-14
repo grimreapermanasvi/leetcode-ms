@@ -7,13 +7,16 @@
   
  
  struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2) {
-
+//check the base condition 
   if(list1==NULL&&list2==NULL)
     return NULL;
+//we add 0 elements of l1 so return l2 
     if(list1==NULL)
     return list2;
+//we add 0 elements of l2 so return l1 
     if(list2==NULL)
     return list1;
+//done so as if the element in l1 is small
     struct ListNode* last, *third;
     if(list1->val<list2->val)
     {
@@ -22,6 +25,7 @@
         list1=list1->next;
         last->next=NULL;
     }
+    //done so because l2 is small 
     else
     {
         third=list2;
