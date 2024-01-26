@@ -14,5 +14,6 @@ int searchInsert(int* nums, int numsSize, int target)
             right = mid - 1;
         }
     }
+    
     return left;
 }
