@@ -25,7 +25,7 @@
         list1=list1->next;
         last->next=NULL;
     }
-    //done so because l2 is small 
+//done so because l2 is small 
     else
     {
         third=list2;
