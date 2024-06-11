@@ -105,8 +105,7 @@ int main()
 }*/
 
 //REVERSE AN ARRAY
-/**/
-void print(int arr[],int n)
+/*void print(int arr[],int n)
 {
     for(int i=0;i<n;i++)
     {
@@ -127,4 +126,6 @@ int main()
     rev(arr,0,n-1);
     print(arr,n);
 }
+*/
+
 

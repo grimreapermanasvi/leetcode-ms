@@ -75,7 +75,7 @@ int main ()
 }
 */
 // USING MAP METHOD 
-/**/
+/*
 int main()
 {
     int n;
@@ -102,4 +102,4 @@ int main()
         cout<<mpp[number]<<endl;
     }
     return 0;
-}
+}*/
